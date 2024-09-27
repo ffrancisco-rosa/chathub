@@ -3,8 +3,8 @@ import { defineManifest } from '@crxjs/vite-plugin'
 export default defineManifest(async () => {
   return {
     manifest_version: 3,
-    name: '__MSG_appName__',
-    description: '__MSG_appDesc__',
+    name: 'LG - WPML Translations',
+    description: 'LG - WPML Translations',
     default_locale: 'en',
     version: '1.45.7',
     icons: {

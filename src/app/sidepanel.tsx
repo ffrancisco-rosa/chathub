@@ -33,9 +33,9 @@ function SidePanelApp() {
   if (premiumState.isLoading) {
     return null
   }
-  if (premiumState.activated) {
+  // if (premiumState.activated) {
     return <SidePanelPage />
-  }
+  // }
   return <PremiumOnly />
 }
 
